@@ -1,0 +1,115 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6fba6f 0%, #5ca95c 100%);
+            color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .intro-container {
+            background: white;
+            padding: 60px 50px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .logo img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .logo-text {
+            text-align: left;
+        }
+
+        .logo h1 {
+            color: #6fba6f;
+            font-size: 3.5em;
+            margin-bottom: 5px;
+        }
+
+        .logo p {
+            color: #666;
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+
+        .intro-content {
+            margin: 40px 0;
+            text-align: left;
+        }
+
+        .intro-content h2 {
+            color: #6fba6f;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .intro-content p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .features {
+            margin: 30px 0;
+        }
+
+        .features ul {
+            list-style: none;
+            text-align: left;
+        }
+
+        .features li {
+            color: #555;
+            padding: 10px 0;
+            font-size: 1.05em;
+        }
+
+        .features li:before {
+            content: "✓ ";
+            color: #6fba6f;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+
+        .next-btn {
+            width: 100%;
+            padding: 18px;
+            background-color: #6fba6f;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.3em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        .next-btn:hover {
+            background-color: #5ca95c;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(111, 186, 111, 0.3);
+        }
